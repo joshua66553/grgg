@@ -1,0 +1,73 @@
+<?php
+  $bg = array('qEEKHo6.png', 'rOxwWM0.png', 'cuXZ9FU.png' ); // array of filenames
+
+  $i = rand(0, count($bg)-1); // generate random number size of the array
+  $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
+?>
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Modern Solutions | Under Maintenance</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
+
+	
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	
+	<link href="common-css/fontawesome.css" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	
+		
+	<link href="07-comming-soon/css/styles.css" rel="stylesheet">
+	
+	<link href="07-comming-soon/css/responsive.css" rel="stylesheet">
+	
+	<!-- style="background-image:url(images/qEEKHo6.png);" -->
+	
+</head>
+<body>
+
+	
+	<div class="main-area center-text" style="background-image:url(images/qEEKHo6.png);">
+		
+		<div class="display-table">
+			<div class="display-table-cell">
+				
+				<h1 class="title"><b>Under Maintenance</b></h1>
+				<p class="desc font-white">Our website is currently undergoing scheduled maintenance.
+					We should be back shortly. Thank you for your patience.</p>
+							
+				<div id="normal-countdown" data-date="2018/04/21"></div>
+				
+				<ul class="social-btn">
+					<li class="list-heading">Follow us for updates!</li>
+					<li><a href="https://discord.gg/DtdjM9K"><i class="fab fa-discord" style="background:#7289DA"></i></a></li>
+					<li><a href="https://twitter.com/ModernSOnline"><i class="ion-social-twitter"></i></a></li>
+				</ul>
+				
+			</div><!-- display-table -->
+		</div><!-- display-table-cell -->
+	</div><!-- main-area -->
+	
+	
+	<!-- SCIPTS -->
+	
+	<script src="common-js/jquery-3.1.1.min.js"></script>
+	
+	<script src="common-js/jquery.countdown.min.js"></script>
+	
+	<script src="common-js/scripts.js"></script>
+	
+</body>
+</html>
